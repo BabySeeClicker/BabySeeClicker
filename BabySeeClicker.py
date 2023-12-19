@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-import subprocess, time
+import subprocess, time, re
 def udte():
     print("\n[Info] --> Checking for token updates, please wait .....\n\n")
     time.sleep(1)
