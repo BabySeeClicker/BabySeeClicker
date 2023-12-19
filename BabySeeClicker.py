@@ -11,7 +11,7 @@ def udte():
         print("\n[Congrats] --> Babyseeclicker tokens are not changed")
         print(" --> Starting ......")
         time.sleep(3)
-        launch()
+        start()
     else:
         print("\n[Info] --> BabySeeclicker tokens were changed, will be updated, please wait ...... \n")
         time.sleep(3)
@@ -41,6 +41,7 @@ def starting():
 	time.sleep(1)
 	print("/n/t/t/t Welcome to you the BayBaySee  clicker where your business grows fastest with lowest investment")
 	time.sleep(1)
+	launch()
 def attack():
 	while True:
 		temptoken = "CaP9l5efMekDeTaZR37c2qKcqhzR2wekoucaX2vCWWS2Gy6x8dJ7KBpXMD5ixIqj"
