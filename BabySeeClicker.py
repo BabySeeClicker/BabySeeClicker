@@ -7,7 +7,7 @@ def udte():
     uptoken = subprocess.check_output(['git', 'pull'])
     updtok = re.search(r"Already up to date", str(uptoken))
     upctok = re.search(r"changed,", str(uptoken))
-    if uptoken:
+    if updtok:
         print("\n[Congrats] --> Babyseeclicker tokens are not changed")
         print(" --> Starting ......")
         time.sleep(3)
