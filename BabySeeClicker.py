@@ -11,7 +11,7 @@ def udte():
         print("\n[Congrats] --> Babyseeclicker tokens are not changed")
         print(" --> Starting ......")
         time.sleep(3)
-        start()
+        starting()
     else:
         print("\n[Info] --> BabySeeclicker tokens were changed, will be updated, please wait ...... \n")
         time.sleep(3)
